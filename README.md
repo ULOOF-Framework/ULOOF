@@ -10,7 +10,7 @@
 
 * **Soot_multiDex**: modified version of Soot library needed for the post-compiler;
 
-* **Kryo_serializationCheck**: modified version of Kyro library for serialization;
+* **Kryo_serializationCheck**: modified version of Kryo library for serialization;
 
 * **SampleApllications**: City Route and Fibonacci (.apk);  
       
@@ -46,7 +46,7 @@ Kryo_serializationCheck | BSD-3 Clause
 	* android;
 	* br.com.ld.algorithmtest;
 	* pl;
-5. Name the .jar as offFrameKryoMod.jar and put it in the 'lib' folder of the post-compiler.
+5. Name the .jar as offFrameKryoMod.jar and put it in the 'lib' folder of the Post-Compiler and in the 'app/libs" of the ServerSide.
 
 ### Post-Compiler Run Configuration
 Create a new Java Run Configuration indicating as arguments:  
