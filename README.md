@@ -71,7 +71,7 @@ Create a new Java Run Configuration indicating as arguments:
 		It should response with HTTP OK.
 6. The modified apk that has to be installed on the Android Phone could be found in 'sootOutput' folder of Post-Compiler. Install and launch it on the Android phone
 
-**IMPORTANT**: to make (4) effective, it has to be provided a settings.txt file on the extern memory of the phone (sdcard usually) with two lines as follow:
+**IMPORTANT**: It has to be provided a settings.txt file on the extern memory of the Android phone (sdcard usually) with two lines as follow:
   
   IP of the machine that runs Genymotion (or any other emulator)  
   8080
