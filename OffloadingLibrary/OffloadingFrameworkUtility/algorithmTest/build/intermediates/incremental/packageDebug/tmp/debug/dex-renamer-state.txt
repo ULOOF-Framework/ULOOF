@@ -1,0 +1,4 @@
+#Mon Oct 15 16:32:32 CEST 2018
+base.0=/home/alessio/Scrivania/LastVersion/Fibonacci/algorithmTest/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

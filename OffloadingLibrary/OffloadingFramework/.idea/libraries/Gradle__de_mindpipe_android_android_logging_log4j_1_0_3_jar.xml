@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.mindpipe.android:android-logging-log4j:1.0.3@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.mindpipe.android/android-logging-log4j/1.0.3/b30d003f82e1e03a404e098533ec6c21eaf76f13/android-logging-log4j-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.mindpipe.android/android-logging-log4j/1.0.3/c064c426919fa0eeabb72f765e0dad628d10c2ee/android-logging-log4j-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

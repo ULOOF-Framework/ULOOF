@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4579929b4ead78da8190a650ae85662338feae3">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_9340e868f09941a7335f342df4f72ca96c2e3508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/libs/httpclient-win-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c02ac345831892275b45eb1721f56e643246e687">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/httpclient-win-4.4_31e668a97547e942e8bb2dadefc721d1d1ff6dca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/libs/httpclient-cache-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="511a9710e4b5613557f9e2e497f4014130aff7ae">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/httpclient-cache-4.4_7c29667ba459cb92c27264a0658ecb141e68d9e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/libs/httpclient-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef3d85ad70d482c4bcf9d6478426f12c002fff29">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/httpclient-4.4_88ec7f447cef7e20bb6c16450ea1255537cbd36d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/libs/httpmime-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9415f45ebcf8ca7df94298a9fa7701cc80f5c22">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/httpmime-4.4_bd3af57c05efc777e167e71144e3134e0184ed39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/87439ddf8f62d7801b985b04188ae9bcf2c266b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_9d668dbd9478e26d588aef61e86577bc23e2a4cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/fbfd4a0d18bc267ddf66f064ea7e5fb2a0fbf243/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_55c250a45b0244d514995ecee38a2ba4a74d84a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/160ee5ae35d013581a2b543112742888dfb3c1bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_5b307168cf717ccc2a2f9bd63a9e8d7bf59c6f9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/141b1c6d8b83116695a5b272025e0d5d285f451f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_d95faec26875be64548a710cb99138c114545820.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/alessiodiama/Dati/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_63732366303afa2077c5a4cf98926de9fbb67133.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/8748673c38cb64b733b2ce79561fb54fe5ab3d77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_0e0ae1c4404b0d1c58cd30e7a3d18eec16ffa991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/2efdcb6d42d1a0a9985b12ae82240061b1a22b10/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_605ff9eb45b8da143b5423f12b4cee2f92c17d0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/141b1c6d8b83116695a5b272025e0d5d285f451f/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_7301f34a390560b79c99dfae72a1be24d0cc6457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/6a733e71a539b0f0db5cfd3a08f98323f88775c0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18e3777df86177870625dce816292aecc871dc43">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_961190d2169462e7290af758f68ee651f67767ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/OffloadingFramework/app/build/intermediates/bundles/default/libs/httpcore-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cbbbab2d4613e3e8307b5162d3b571fac5f8342b">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/httpcore-4.4_3b9610e1e7edf3de4a08da1c0be6870491a22380.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alessiodiama/.android/build-cache/0dae56a5d7c335ce8a1f5255a8536f3c472f8bbe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/alessiodiama/Fibonacci/algorithmTest/build/intermediates/pre-dexed/debug/classes_8eccac3fbd2027c2d2139409fc1486ff3be9e50a.jar" />
+    </item>
+
+</items>

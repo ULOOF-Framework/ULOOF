@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/3b0cce559c3b68cae578858fb429a09b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/fbe265dc2162731562dbd9d214d2b700/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/e2071aa4b753a3fcbd7f7d963ddc8a18/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c3e852e3d38e0b7fbe6e4d4daefa829d/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e87f72fc9f82064b0a8b873e4dda3776/AndroidManifest.xml:17:1-24:12
+MERGED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:1-44:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.1] /home/alessio/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.1.aar/53ca18a28260d7fd3c9768dd99c9579e/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:1-65:12
+	package
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:28:5-42
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:30:5-30
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:27:11-69
+	android:versionCode
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:29:5-28
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:32:5-34:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:32:5-34:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:32:5-34:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/3b0cce559c3b68cae578858fb429a09b/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/3b0cce559c3b68cae578858fb429a09b/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/fbe265dc2162731562dbd9d214d2b700/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/fbe265dc2162731562dbd9d214d2b700/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/e2071aa4b753a3fcbd7f7d963ddc8a18/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/e2071aa4b753a3fcbd7f7d963ddc8a18/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c3e852e3d38e0b7fbe6e4d4daefa829d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/c3e852e3d38e0b7fbe6e4d4daefa829d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e87f72fc9f82064b0a8b873e4dda3776/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e87f72fc9f82064b0a8b873e4dda3776/AndroidManifest.xml:20:5-43
+MERGED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:5-33:41
+MERGED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:5-33:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.1] /home/alessio/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.1.aar/53ca18a28260d7fd3c9768dd99c9579e/AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.1] /home/alessio/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.1.aar/53ca18a28260d7fd3c9768dd99c9579e/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:32:5-34:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:32:5-34:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:34:9-38
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:33:9-34
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:36:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:37:2-63
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:37:19-61
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:39:5-81
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:39:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:40:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:41:2-73
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:41:19-70
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:42:2-69
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:42:19-66
+application
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:44:5-63:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/3b0cce559c3b68cae578858fb429a09b/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/3b0cce559c3b68cae578858fb429a09b/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/fbe265dc2162731562dbd9d214d2b700/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/fbe265dc2162731562dbd9d214d2b700/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/e2071aa4b753a3fcbd7f7d963ddc8a18/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/e2071aa4b753a3fcbd7f7d963ddc8a18/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e87f72fc9f82064b0a8b873e4dda3776/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e87f72fc9f82064b0a8b873e4dda3776/AndroidManifest.xml:22:5-20
+MERGED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:5-42:19
+MERGED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:5-42:19
+	android:label
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:47:9-41
+	android:icon
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:46:9-45
+	android:allowBackup
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:45:9-35
+	android:theme
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:48:9-40
+activity#br.com.lealdn.algorithmtest.MainActivity
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:49:9-57:20
+	android:label
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:50:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:52:13-56:29
+action#android.intent.action.MAIN
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:55:27-74
+activity#br.com.lealdn.algorithmtest.SettingsActivity
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:59:9-63
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:59:19-51
+meta-data#com.google.android.gms.version
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:60:9-62:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/alessio/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/f3c910ca22d8654b672c49e9e3a74327/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:62:13-66
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/AndroidManifest.xml:61:13-58
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from [:offloadingFramework] /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:22-76

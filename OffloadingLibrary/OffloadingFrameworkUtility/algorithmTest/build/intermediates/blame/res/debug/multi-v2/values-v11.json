@@ -1,0 +1,44 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "1297",
+                        "endLines": "33",
+                        "endColumns": "12",
+                        "endOffsets": "1426"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "184"
+                    }
+                },
+                {
+                    "source": "/home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "5,11,17,23,29,35,41,42,43,48,53,55,57,58,59,110,162",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "189,608,1033,1461,1887,2314,2739,2828,2929,3337,3757,3864,3993,4064,4147,7793,11579",
+                        "endLines": "10,16,22,28,34,40,41,42,47,52,54,56,57,58,109,161,162",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "603,1028,1456,1882,2309,2734,2823,2924,3332,3752,3859,3988,4059,4142,7788,11574,11665"
+                    }
+                }
+            ]
+        }
+    ]
+}

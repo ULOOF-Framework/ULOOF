@@ -1,0 +1,6 @@
+getSystemService(
+getDefaultSensor(
+getSensorList(
+onSensorChanged(
+onAccuracyChanged(
+getTotalMemory(

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+<project name="prr" default="run" basedir=".">
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+	  <classpath>
+	    <pathelement location="/home/alessio/Downloads/ant-contrib-0.6.jar"/>
+	  </classpath>
+	</taskdef>	
+	<property name="apk" value=""/>
+	
+	<path id="classpath">
+	  <fileset dir="lib/" includes="**/*.jar" />
+	 </path>
+
+<target name="clean">
+<delete dir="staging/" />
+</target>
+	
+    <target name="compile" depends="clean" >
+    	<mkdir dir="staging/"/>
+        <javac includeantruntime="false" srcdir="src" destdir="./staging"  classpathref="classpath" />
+        	 
+    
+    </target>
+<target name="for">
+	<foreach list="yelp,AVGAntiVirus,MoovitBusTrain,Boomerang,Shoot2,1LINE,Partymasters,camscanner,ClashRoyale,MessengerLite,mi-fit-2-2-3,oBike,PUBG,Skype,Asphalt8,Reports+,ScoreMatch,AreaClienti3,inshot,GoogleHome,Gardenscapes,HavanaPiano,QuizPatenteUfficiale,waze,shazam,BlockPuzzle,WordConnect,Stocard,Photomath,PowerCleanAntiVirus,MicrosoftOutlook,d3D,HomeWorkout,eBay,AstralCoach,Bowmasters,theWeather,PicFrame,ArmWorkout,VideoEditorMusic,SkidStorm,PowerDirector,AngryBirds,HungrySharkEvolution,BANCOpSOTA,microsoft-outlook,VirusCleaner,ZalandoPrivé,com.yelp,MyFastweb,Airbnb,HayDay,Tigerball,PianoTiles2,musical.ly,Mathway,Subito,Twitch,Waze,SkillfulFinger,Instagram,HeadBall2,SmileyEmoji,SuperCrushMachine,4Pics1Word,NBALIVEMobile,CandyCrushSaga,Immobiliareit,TrafficRider,MyVodafoneItalia,WhatsApp,CrazyAA,LayoutFromInstagram,PacerPedometerStepCounter,AdobePhotoshopExpress,SkyGo,MatioRun,TempleRun2,devhd,Homescapes,ClasseVivaStudenti,SamsungSmartSwitchMobile,PAKO2,ScrollingBallinSky,Pixlr,Privalia,outlook,KnifeHit,TheSimsMobile,Netflix,ToonBlast,YAZIO,GalaxyAttack,CATSCrash,WeDrum,Truecaller,outlook2,Badoo,PhotoDirector,facebook,VideoEditor,PicsArt,uber,Pou,CalculatorN,SubwaySurfers,AliExpress,GOMusic,GooglePhotos,McDonald,Amazon,AndroidAuto,MagicTiles,VideoShowVideo,AmazonShopping,GardenofWords,BrightestFlashlight,GeometryDashLite,MyTalkingTom,imofree,Juasapp,RaiPlay,Scale,FindNow,speedtest,Fridaythe,JustEat,participactclient-release,WoodBlockPuzzle,DottoDottoColoring,Postemobile,LOVOO,BaseballBoy,BestSniper,ParoleCroce,NewsRepublic,HillClimbRacing2,pinterest-2-,MAXCleaner,SpaceShooter,VivaVideoEditor,Snapchat,FaceFilter,reddit,StepCounter,ClassicUno,TurboBooster,MediasetOnDemand,LordsMobile,APUSSecurity,DuolingoLearnLanguages,zalando,GunsOfBoom,DHgateShop,DancingBallSaga,Spotify,Shopfully,VLC,dametucosita,Helix,ZEDGE,NoDrawColors,AutoScout24,slitherio,Tinder,FreeMusic,TheFork,Wish,Minicraft,Telegram,Nova,MyWind,CraftWarriors,SixPackin30Days,LiveFootball,Ryanair,FreeMusicPlus,Groupon,BlockCraft3D,Runtastic,FacebookLite,Messenger,TVItaly,Trenitalia,SIMCard,Chess,PianoFree,Pinterest,GoEuro,ZombieTsunami,DeadRivals,Shpock,HumanEvolution,Bitmoji,Sniper3D,APUSLauncher,FootballStrike,CleanMaster,DestinyWarefare,PhoneClone,Sandbox,FantasyKeyboard,PrisonEscape,UNO,Akinator,VideoMakerOfPhotos,Viber,FIFASoccer,igonav,MicrosoftWord,HungrySharkWolrd,Infotarga,PixelArt,FamilyLocator,MyTIM,Speedtest,FameBoom,PokémonGO,DinoWar,snapchat,AdobeAcrobatReader,TriviaCrackKingdoms,StickmanParkour,OnefootballLiveSoccerScore,Bookingcom,IntesaSanPaolo,UfficioPostale,DURecorder,iTranslate,21Buttons,LiberoMail,snap,Sudoku,Sitac,FlixBus,Reverso,MessengerFace,CandyCrushSoda,CrazyChildren,Leichte,ScoreHero,EliteTrials,LightXPhotoEditor,pittarello,LinkedIn,GoogleEarth,RacingLimits,Diretta,SUREUniversalSmartTVRemoteControl,FightList,QRCodeReader,mi-fit,CookingFever,8BallPool,FatalDrift,SniperArena,BusRush,CashInc,NoColor,subito,instagram,Facebook,sygic,Twitter,garena,BersiherCooler,Rider,TerraExplorer,ubercab,posteapp,SheIn,FastCleaner,LoseWeightin30Days,PhotoEditorBeautyCamera,SimpleRadioFree,DancingLine,SuperBright,ComeFareLoSlime,UphillRushRacing,GoogleTranslate,Granny,AmazonPrimeVideO,PJMasks,RollingSky,GoogleAssistant,algorithmTest-debug,ClashofClans,RodeoStampede,TerraExplorer_,WeAreIlluminati," param="apk" target="run">
+
+	    		</foreach>
+</target>
+	<target name="test">
+		<echo>  ${letter}</echo>
+
+	</target>
+ 
+    <target name="run">
+    	
+    	<java classname="br.com.lealdn.AndroidInstrument2">
+    	      <classpath>
+    	        <pathelement location="./staging/" />
+    	        <path refid="classpath" />
+    	      </classpath>
+    		<arg value="-pp"/>
+    		<arg value="-android-jars"/>
+    		<arg value="/home/alessio/Android/Sdk/platforms"/>
+    		<arg value="-process-dir"/>
+    		<arg value="./apk/${apk}.apk"/>
+    		<arg value="-debug"/>
+    		<arg value="-process-dir"/>
+    		<arg value="lib/offFramKryoMod.jar"/>
+    		<arg value="-d"/>
+    		<arg value="sootOutput"/>
+    		<arg value="-allow-phantom-refs"/>
+    		<arg value="-w"/>
+    		<arg value="-force-overwrite"/>
+    		<jvmarg value="-Xdebug"/>
+    		<jvmarg value="-Xnoagent"/>
+    		<jvmarg value="-Xrunjdwp:transport=dt_socket,address=5555,server=y,suspend=y"/>
+    	</java>
+    	
+    </target>
+
+</project>

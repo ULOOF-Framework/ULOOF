@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AlgorithmTest:
+* build.xml
+* ic_launcher-web.png
+* proguard-project.txt
+From OffloadingFramework:
+* .project.properties.swp
+* .swp
+* build.xml
+* build.xml
+* proguard-project.txt
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.4.0
+gson-2.2.2.jar => com.google.code.gson:gson:2.2.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.4.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In OffloadingFramework:
+* AndroidManifest.xml => offloadingFramework/src/main/AndroidManifest.xml
+* assets/ => offloadingFramework/src/main/assets
+* libs/android-logging-log4j-1.0.3.jar => offloadingFramework/libs/android-logging-log4j-1.0.3.jar
+* libs/commons-codec-1.9.jar => offloadingFramework/libs/commons-codec-1.9.jar
+* libs/commons-logging-1.2.jar => offloadingFramework/libs/commons-logging-1.2.jar
+* libs/commons-math3-3.5.jar => offloadingFramework/libs/commons-math3-3.5.jar
+* libs/fluent-hc-4.4.jar => offloadingFramework/libs/fluent-hc-4.4.jar
+* libs/httpclient-4.4.jar => offloadingFramework/libs/httpclient-4.4.jar
+* libs/httpclient-cache-4.4.jar => offloadingFramework/libs/httpclient-cache-4.4.jar
+* libs/httpclient-win-4.4.jar => offloadingFramework/libs/httpclient-win-4.4.jar
+* libs/httpcore-4.4.jar => offloadingFramework/libs/httpcore-4.4.jar
+* libs/httpmime-4.4.jar => offloadingFramework/libs/httpmime-4.4.jar
+* libs/kryo-2.22-all.jar => offloadingFramework/libs/kryo-2.22-all.jar
+* libs/log4j-1.2.17.jar => offloadingFramework/libs/log4j-1.2.17.jar
+* lint.xml => offloadingFramework/lint.xml
+* res/ => offloadingFramework/src/main/res/
+* src/ => offloadingFramework/src/main/java/
+In OffloadingFramework:
+* AndroidManifest.xml => offloadingFramework/src/main/AndroidManifest.xml
+* assets/ => offloadingFramework/src/main/assets
+* libs/android-logging-log4j-1.0.3.jar => offloadingFramework/libs/android-logging-log4j-1.0.3.jar
+* libs/commons-codec-1.9.jar => offloadingFramework/libs/commons-codec-1.9.jar
+* libs/commons-logging-1.2.jar => offloadingFramework/libs/commons-logging-1.2.jar
+* libs/commons-math3-3.5.jar => offloadingFramework/libs/commons-math3-3.5.jar
+* libs/fluent-hc-4.4.jar => offloadingFramework/libs/fluent-hc-4.4.jar
+* libs/httpclient-4.4.jar => offloadingFramework/libs/httpclient-4.4.jar
+* libs/httpclient-cache-4.4.jar => offloadingFramework/libs/httpclient-cache-4.4.jar
+* libs/httpclient-win-4.4.jar => offloadingFramework/libs/httpclient-win-4.4.jar
+* libs/httpcore-4.4.jar => offloadingFramework/libs/httpcore-4.4.jar
+* libs/httpmime-4.4.jar => offloadingFramework/libs/httpmime-4.4.jar
+* libs/kryo-2.22-all.jar => offloadingFramework/libs/kryo-2.22-all.jar
+* libs/log4j-1.2.17.jar => offloadingFramework/libs/log4j-1.2.17.jar
+* res/ => offloadingFramework/src/main/res/
+* src/ => offloadingFramework/src/main/java/
+* src/br/com/lealdn/offload/.BandwidthManager.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.BandwidthManager.java.swp
+* src/br/com/lealdn/offload/.ExecutionManager.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.ExecutionManager.java.swp
+* src/br/com/lealdn/offload/.Intercept.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.Intercept.java.swp
+* src/br/com/lealdn/offload/.MethodAssessmentConverter.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.MethodAssessmentConverter.java.swp
+* src/br/com/lealdn/offload/.OffloadingManager.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.OffloadingManager.java.swp
+* src/br/com/lealdn/offload/.RTTService.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/.RTTService.java.swp
+* src/br/com/lealdn/offload/utils/.Utils.java.swp => offloadingFramework/src/main/resources/br/com/lealdn/offload/utils/.Utils.java.swp
+In AlgorithmTest:
+* AndroidManifest.xml => algorithmTest/src/main/AndroidManifest.xml
+* assets/ => algorithmTest/src/main/assets
+* lint.xml => algorithmTest/lint.xml
+* res/ => algorithmTest/src/main/res/
+* src/ => algorithmTest/src/main/java/
+* src/br/com/lealdn/algorithmtest/.Algorithms.java.swp => algorithmTest/src/main/resources/br/com/lealdn/algorithmtest/.Algorithms.java.swp
+* src/br/com/lealdn/algorithmtest/.MainActivity.java.swp => algorithmTest/src/main/resources/br/com/lealdn/algorithmtest/.MainActivity.java.swp
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

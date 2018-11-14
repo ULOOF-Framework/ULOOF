@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fibonacci.iml" filepath="$PROJECT_DIR$/Fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithmTest/algorithmTest.iml" filepath="$PROJECT_DIR$/algorithmTest/algorithmTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OffloadingFramework/app/offloadingFramework.iml" filepath="$PROJECT_DIR$/../OffloadingFramework/app/offloadingFramework.iml" />
+    </modules>
+  </component>
+</project>

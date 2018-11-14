@@ -1,0 +1,17 @@
+onCreate(
+onStart(
+onResume(
+onPause(
+onStop(
+onRestart(
+onDestroy(
+onReceive(
+onSaveInstanceState(
+onRestoreInstanceState(
+startActivity(
+onCreateDialog(
+onCreateLoader(
+onCreateOptionsMenu(
+onLoadFinished(
+onLoaderReset(
+onOptionsItemSelected(

@@ -1,0 +1,44 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/home/alessio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/0353808e8426269559a0c156f041c56f/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "203,479,550,633,1043,1465,1585,1648,1802,1865",
+                        "endLines": "9,10,11,17,23,24,25,28,29,30",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "474,545,628,1038,1460,1580,1643,1797,1860,1992"
+                    }
+                },
+                {
+                    "source": "/home/alessio/Scrivania/OffloadingLibToGit/Fibonacci/algorithmTest/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "1340",
+                        "endLines": "34",
+                        "endColumns": "12",
+                        "endOffsets": "1483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "198"
+                    }
+                }
+            ]
+        }
+    ]
+}

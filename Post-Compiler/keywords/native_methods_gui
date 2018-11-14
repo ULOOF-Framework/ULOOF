@@ -1,0 +1,9 @@
+LinearLayout
+FrameLayout
+RelativeLayout
+LayoutInflater
+ListView
+GridView
+ScrollView
+findViewById(
+setContentView(

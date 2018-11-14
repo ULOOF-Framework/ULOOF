@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:1-43:12
+	package
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:27:5-36
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:29:5-30
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:26:11-69
+	android:versionCode
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:28:5-28
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:31:5-33:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:31:5-33:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:31:5-33:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:31:5-33:41
+INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:31:5-33:41
+	android:targetSdkVersion
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:33:9-38
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:32:9-34
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:35:22-76
+application
+ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:36:5-41:19
+	android:label
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:39:9-41
+	android:icon
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:38:9-45
+	android:allowBackup
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:37:9-35
+	android:theme
+		ADDED from /home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/src/main/AndroidManifest.xml:40:9-40

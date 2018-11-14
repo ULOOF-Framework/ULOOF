@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/home/alessio/Scrivania/OffloadingLibToGit/OffloadingFramework/app/libs/reflectasm-1.10.1-shaded.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../OffloadingFramework/app/libs/reflectasm-1.10.1-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
