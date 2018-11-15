@@ -87,4 +87,9 @@ If you use the present code for your work, please cite the following paper in an
 J.L.D. Neto, S. Yu, D.F. Macedo, J.M.S. Nogueira, R. Langar, S. Secci,  
 **ULOOF: a User Level Online Offloading Framework for Mobile Edge Computing**,  
 IEEE Transactions on Mobile Computing, Vol. 17, No. 11, pp:  2660-2674, Nov. 2018.
+http://cedric.cnam.fr/~seccis/papers/NeYuMaNoLaSe-TMC18.pdf
 
+More details on the automated annotation process:
+A. Zanni, Se-Young Yu, S. Secci, R. Langar, P. Bellavista, D. Macedo, 
+**Automated Offloading of Android Applications for Computation/Energy-usage Optimizations**, in Proc. of IEEE Int. Conference on Computer Communications (INFOCOM) Workshops, May 1-4, 2017, Atlanta, USA. 
+http://cedric.cnam.fr/~seccis/papers/ZaYuSeLaBeMa-INFOCOM17.pdf
