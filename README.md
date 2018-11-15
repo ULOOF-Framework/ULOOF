@@ -30,15 +30,15 @@ OffloadingLibrary | GNU Lesser General Public License
 Soot_multiDex | GNU Lesser General Public License
 Kryo_serializationCheck | BSD-3 Clause
 
-## Technical detail
+## Installation
 **Recommended OS**: Linux distribution (for example, path separator could create problems in other OSs)
 
-### Needed/Suggested Softwares
+### Suggested softwares
 * Android Studio (and Android SDK);
 * Eclipse;
 * Android Emulator (e.g. Genymotion);
 
-### How to obtain offFrameKryoMod.jar from the OffloadingLibrary AndroidStudio Project
+### How to obtain offFrameKryoMod.jar from the OffloadingLibrary AndroidStudio project
 1. Import in AS only OffloadingFrameworkUtility (this corresponds to the offFramKryoMod.jar included in Post-Compiler and ServerSide);
 2. Apply any changes;
 3. Build the APK as usual;
@@ -48,7 +48,7 @@ Kryo_serializationCheck | BSD-3 Clause
 	* pl;
 5. Name the .jar as offFrameKryoMod.jar and put it in the 'lib' folder of the Post-Compiler and in the 'app/libs" of the ServerSide.
 
-### Post-Compiler Run Configuration
+### Post-Compiler run configuration
 Create a new Java Run Configuration indicating as arguments:  
   
 -pp -android-jars **HERE_INSERT_ANDROID_SDK_PATH**/platforms -process-dir ./apk/**HERE_INSERT_APK_NAME.apk** 
@@ -80,6 +80,7 @@ Create a new Java Run Configuration indicating as arguments:
 José Leal D. Neto, Daniel F. Macedo, Stefano Secci, Rami Langar, José Marcos Nogueira - Decision Engine, Overall Framework  
 Se-young Yu - Sample Applications  
 Alessio Diamanti, Alessandro Zanni - Sample Applications, Automated Annotations
+
 ## Credits to be included
 
 If you use the present code for your work, please cite the following paper in any publication as a credit:
