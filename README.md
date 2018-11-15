@@ -1,6 +1,6 @@
 # ULOOF REPOSITORY
 
-## Projects inside ULOOF repository
+## Directories
 * **ServerSide**: Offloading Server (Android Studio Project);
 
 * **Post-Compiler**: Post-Compiler (Eclipse Project);  
@@ -59,7 +59,7 @@ Create a new Java Run Configuration indicating as arguments:
   Moreover, set the Main class as AndroidInstrumentv2.
 
 
-### How to use the Offloading Framework
+### How to use ULOOF
 1. Launch Post-Compiler putting the APK of the application to offload inside the 'apk' folder
 2. After the execution, copy the generated temp.jar that is inside the 'temp' folder of Post-Compiler to the folder 'ServerSide\app\libs'
 	(in the gradle dependencies of the ServerSide there is the temp.jar file, it contains what ServerSide needs to execute app's methods)
@@ -85,6 +85,6 @@ Alessio Diamanti, Alessandro Zanni - Sample Applications, Automated Annotations
 If you use the present code for your work, please cite the following paper in any publication as a credit:
 
 J.L.D. Neto, S. Yu, D.F. Macedo, J.M.S. Nogueira, R. Langar, S. Secci,  
-**?ULOOF: a User Level Online Offloading Framework for Mobile Edge Computing?**,  
+**ULOOF: a User Level Online Offloading Framework for Mobile Edge Computing**,  
 IEEE Transactions on Mobile Computing, Vol. 17, No. 11, pp:  2660-2674, Nov. 2018.
 
