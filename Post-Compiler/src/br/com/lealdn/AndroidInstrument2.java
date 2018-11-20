@@ -812,12 +812,7 @@ public class AndroidInstrument2 /*implements Runnable */{
     		notOffloadClasses_old = notOffloadClasses_new;
     		
     		for(SootClass clazz : notOffloadClasses_new) {
-				//System.out.println(clazz.getName()+" NOT OFFLOADABLE");
-    			//---------------PRINT-------------
-    			//if(clazz.getName().contains("InetAddress")) {
-    				//System.out.println(clazz.getName()+" NOT OFFLOADABLE");
-    			//}
-    			//--------------------------------
+		
     			notOffloadClasses.add(clazz);
     		}
     		notOffloadClasses_new = new ArrayList<SootClass>();
@@ -881,14 +876,7 @@ public class AndroidInstrument2 /*implements Runnable */{
      	System.out.println("Performing syntax and internal methods checking ...");
      	cm.initialScanMethods3(graph, offloadClasses, notOffloadClasses);
      	System.out.println("Finished syntax and internal methods checking.");
-     	
-     	//-------------STAMPA AGGIUNTA ALESSIO MORA---------------
-	    System.out.println(" OFFLOAD CLASSES 2");
-	    for(SootClass clazz : offloadClasses)
-	    	if (clazz.getName().startsWith("java.net.InetAddress"))
-	    		System.out.println("---- "+clazz.getName());
-	    //-------------------------------------------------------- 	
-     	
+     	     	
 	    /*
 	     * Here all the graph is scanned, in order to propagate the not-offloadability of one method
 	     * to its parent using recursion exploiting scanMethodsDependency3().
@@ -899,46 +887,10 @@ public class AndroidInstrument2 /*implements Runnable */{
      		NodeGraph nodeValue = node.getValue();
      	
      		if(ThreeState.FALSE.equals(nodeValue.getOffloadable())) {
-     			//------------------- PRINT ADDED by alessio mora -----------------------
-     			/*if( node.getKey().contains("getAllByName") ) {
-     				System.out.println("^^^^^^^^^^ getAllByName: "+node.getKey());
-     				for(SootMethod parent: node.getValue().getParents()) {
-     					System.out.println("^^^for^^^^ : "+node.getKey() + " --PARENT: "+parent.getName());
-     				}
-     			}*/
-     				
-     			
-     			for(SootMethod parent: node.getValue().getParents()) {
-     				if( (parent.getName().contains("connectAnd")) || (parent.getName().contains("getByName")) 
-     						//|| (parent.getName().contains("getAllByName")) 
-     						     						)
-     					
-     					System.out.println("^^^^^^^^^^ CAUSA: "+node.getKey() + " --PARENT declaring class: "+parent.getDeclaringClass()+ " "+parent.getName());
-     				
-     					
-     			}
-     			
-     			//-----------------------------------------------------------------------
-     			cm.scanMethodsDependency(graph, nodeValue);
+			cm.scanMethodsDependency(graph, nodeValue);
      		}
      	}
      	System.out.println("Finished the dependency checking.");
-     	
-     	//***************************************************************************
-     	//------------ FORCING TO MARK SOCKET METHODS AS OFFLOADABLE -----------------
-     	/*for(Entry<String, NodeGraph> node : graph.entrySet()){
-     		if(node.getKey().contains("connectAndSend")) {
-     		if(   (node.getKey().contains("moraa.example.com.socketclientsplitted.SocketUtility: void connect()")) || 
-     				(node.getKey().contains("moraa.example.com.socketclientsplitted.SocketUtility: void sendMessage()"))   ) {
-     				
-     			
-					System.out.println("FOUND, key "+node.getKey());
-					node.getValue().setOffloadable(ThreeState.TRUE);
-					node.getValue().setVisited(true);
-     		}
-     	
-     	}*/
-     	//---------------------------------------------------------------------------
         
      	// Retrieving only the signatures of offloadable methods
      	ArrayList<SootMethod> offloadMethods = new ArrayList<SootMethod>();
