@@ -1,5 +1,7 @@
 # ULOOF REPOSITORY
 
+Project webpage: http://sites.cnam.fr/uloof
+
 ## Directories
 * **ServerSide**: Offloading Server (Android Studio Project);
 
@@ -95,3 +97,6 @@ More details on the automated annotation process:
 A. Zanni, Se-Young Yu, S. Secci, R. Langar, P. Bellavista, D. Macedo, 
 **Automated Offloading of Android Applications for Computation/Energy-usage Optimizations**, in Proc. of IEEE Int. Conference on Computer Communications (INFOCOM) Workshops, May 1-4, 2017, Atlanta, USA. 
 http://cedric.cnam.fr/~seccis/papers/ZaYuSeLaBeMa-INFOCOM17.pdf
+
+More details can be found at: http://sites.cnam.fr/uloof
+
