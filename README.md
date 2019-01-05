@@ -1,6 +1,6 @@
 # ULOOF REPOSITORY
 
-Project webpage: http://sites.cnam.fr/uloof
+Project webpage: http://uloof.roc.cnam.fr
 
 ## Directories
 * **ServerSide**: Offloading Server (Android Studio Project);
